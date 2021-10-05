@@ -1,0 +1,73 @@
+body {
+  background-image: url(https://d2cdo4blch85n8.cloudfront.net/wp-content/uploads/2021/04/Hubble-Space-Telescope-Pillars-of-Creation-image-1-1024x576.jpg);
+  background-size: 1300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+.card-container {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.card-banner {
+  background-image: url(https://cdn.britannica.com/q:60/65/161665-050-C4B1FA75/Waves-North-Shore-Oahu-Hawaiian-Islands.jpg);
+  background-size: 400px;
+  flex: 1;
+}
+
+.picture {
+  border-radius: 50%;
+  margin-top: -110px;
+}
+
+.card-info {
+  flex: 1;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-stats {
+  background-color: rgb(255, 255, 255);
+  flex: 0.8;
+  display: flex;
+}
+
+.stats {
+  font-size: 14px;
+}
+
+.instagram {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.email {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.github {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
